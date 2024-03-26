@@ -1,0 +1,37 @@
+header{
+  background-color: cyan;
+  padding: 20px;
+}
+section{
+  margin: 20px 0;
+  padding: 20px;
+}
+#Introduction{
+  background-color: aquamarine;
+}
+#Skills{
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+#Contact{
+  background-color: cadetblue;
+}
+#Contact ul{
+  padding: 0;
+}
+#Contact li{
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+/*Media Queries for Responsive Design*/
+
+@media only screen and (max-width: 768px) {
+  header, section{
+    padding: 10px;
+  }
+  #skills li{
+    margin-bottom: 5px;
+  }
+}
